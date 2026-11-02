@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Control de Ventas y Gastos</title>
+<style>
+  :root{
+    --bg:#151312;
+    --bg-panel:#1e1b19;
+    --bg-card:#252120;
+    --line: #35302d;
+    --gold:#d9a441;
+    --gold-dim:#8a6b2c;
+    --red:#c1543f;
+    --green:#5c8a5c;
+    --text:#f1ece3;
+    --text-dim:#a89e92;
+    --radius:10px;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family: 'Georgia', 'Iowan Old Style', serif;
+    min-height:100vh;
+  }
+  .topbar{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:18px 24px; border-bottom:1px solid var(--line);
+    background:linear-gradient(180deg, #1a1715, #151312);
+  }
+  .brand{ display:flex; align-items:center; gap:10px; }
+  .brand h1{
+    font-family: 'Trebuchet MS', sans-serif; font-weight:800; letter-spacing:1px;
+    font-size:20px; margin:0; color:var(--gold); text-transform:uppercase;
